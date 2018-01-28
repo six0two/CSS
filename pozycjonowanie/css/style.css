@@ -6,5 +6,47 @@ body{
 #kontener{
     
     background-color: beige;
-    margin: 50px 10px;
+    padding: 10px;
+}
+
+div{
+    
+    margin: 10px;
+}
+
+div#kontener > div#pierwszy {
+    
+    background-color: gold;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+div#kontener > div#drugi {
+    
+    background-color: lime;
+}
+
+#kontener-abs{
+    
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+div{
+    
+    margin: 10px;
+}
+
+div#kontener-abs > div#pierwszy-abs {
+    
+    background-color: darkorange;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+div#kontener-abs > div#drugi-abs {
+    
+    background-color: darkcyan;
 }
