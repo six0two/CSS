@@ -1,14 +1,21 @@
-body
-{
+body{
+    
     background-color: red;
 }
 
 p{
+    
     background-color: gray;
     color: #fff;
 }
 
-#selektor-po-id 
-{
+#selektor-po-id{
+    
     color: yellow;
 }
+
+.selektor-po-klasie {
+	
+    color: violet;
+}
+
