@@ -1,3 +1,30 @@
-body{
-    background-color: red;
+body {
+    background-color: darkgray;
+}
+
+div {
+    width: 300px;
+    height: 30px;
+    margin: 15px;
+    
+}
+
+#predefiniowane {
+	background-color: lightblue;
+}
+
+#hexadecymalne {
+	background-color: #45aa24;
+}
+
+#skrocony-hex {
+    background-color: #000;
+}
+
+#rgb {
+    background-color: rgb(255, 50, 55);
+}
+
+#rgba {
+    background-color: rgba(255, 50, 55, 0.4);
 }
