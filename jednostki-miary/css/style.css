@@ -1,0 +1,18 @@
+html{
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+#container{
+    font-size: 30px;
+}
+
+#container > div{
+    background-color: red;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#pixele{
+    width: 400px;
+}
