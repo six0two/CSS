@@ -7,6 +7,7 @@ body{
     
     background-color: beige;
     padding: 10px;
+    z-index: 100;
 }
 
 div{
@@ -31,6 +32,9 @@ div#kontener > div#drugi {
     
     background-color: lightgreen;
     padding: 10px;
+    position: relative;
+    top: 20px;
+    left: 40px;
 }
 
 div{
@@ -41,7 +45,7 @@ div{
 div#kontener-abs > div#pierwszy-abs {
     
     background-color: darkorange;
-    position: relative;
+    position: absolute;
     top: 30px;
     left: 60px;
 }
