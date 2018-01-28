@@ -29,3 +29,17 @@ p{
     color: orange;
 }
 
+#moniki > div > div > p {
+	
+    background-color: darkseagreen;
+}
+
+p#selektor-po-id ~ p{
+    
+    color: orange;
+}
+
+p#selektor-po-id + p{
+    
+    color: magenta;
+}
