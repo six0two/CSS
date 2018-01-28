@@ -2,3 +2,8 @@ body
 {
     background-color: red;
 }
+
+p{
+    background-color: gray;
+    color: #fff;
+}
